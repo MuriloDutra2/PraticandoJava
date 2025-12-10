@@ -34,5 +34,5 @@ public class MercadoDesconto {
             System.out.println("O valor não é aplicavel para desconto, se mantém em:  " + valorCompra);
         }
         sc.close();
-    }
+    }   
 }
