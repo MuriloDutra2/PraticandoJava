@@ -13,26 +13,36 @@ public class ContagemDeLogin {
         Scanner leitor = new Scanner(System.in);
 
         int senha = 1234;
-        int contador = 0;
+        int contador = 3;
 
 
 
         System.out.println("Digite a senha: ");
         int senhaDigitada = leitor.nextInt();
 
-    if (senhaDigitada != senha) {
-        while (contador != 3) {
+        if (senha == senhaDigitada) {
+            System.out.println("Senha Correta! Acesso concedido!\n");
+        } else {
+            System.out.println("senha incorreta");
+            for (int i = 0; i < 3; i++) {
+                System.out.println("Digite a senha: ");
+                 senhaDigitada = leitor.nextInt();
 
+                if (senha == senhaDigitada) {
+                    System.out.println("Senha Correta! Acesso concedido!\n");
+                    i  = 3;
+                } else {
+                    contador--;
+                    System.out.println("Senha incorreta! Acesso negado!\n");
+                    System.out.println("Voce tem mais " + contador + " tentativas");
+                }
 
-            System.out.println(senhaDigitada );
+            }
 
-
-            contador++;
-
-
+            leitor.close();
         }
 
-    }
+
 
 
 
