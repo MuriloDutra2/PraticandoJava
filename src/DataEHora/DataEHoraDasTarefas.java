@@ -1,5 +1,7 @@
 package DataEHora;
 
+import java.time.LocalDate;
+import java.time.LocalTime;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -14,26 +16,17 @@ public class DataEHoraDasTarefas {
     //Exiba essas informações no formato adequado.
 
     public static void main(String[] args) {
-        Scanner leitor = new Scanner(System.in);
+
+        String tarefa =  " Enviar relatório semanal ";
+
+        LocalDate dataAtual = LocalDate.now();
+        LocalTime HoraAtual = LocalTime.now();
 
 
 
-        System.out.println("Voce quer criar uma tarefa? S / N (N finaliza o programa)");
-        String decisao = leitor.next();
+        System.out.println("A tarefa1 : "  + tarefa + "Foi criada no dia " + dataAtual +  " Na hora: " + HoraAtual);
 
 
-
-
-
-
-
-
-
-
-
-
-
-        leitor.close();
     }
 
 }
