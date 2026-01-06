@@ -44,11 +44,25 @@ public class ControleDeExpediente {
 
         Duration duracao = Duration.between(HoradeSaidaIdeal, saida);
 
-        System.out.println("Banco De Horas: ");
+        int horas = duracao.toHoursPart();
+        int minutos =  duracao.toMinutesPart();
 
-        //ainda vou completar 
+        if (horas == 0 && minutos == 0) {
+            System.out.println("Saldo de horas: 0h 0min");
+        } else {
+                String sinal;
+            if (horas> 0 || minutos > 0) {
+                sinal = "+";
+            } else {
+                sinal = "-";
 
 
+        }
+
+            System.out.println("Saldo de horas: " + sinal + Math.abs(horas) + "h " + Math.abs(minutos));
+
+
+        }
 
 
         scanner.close();

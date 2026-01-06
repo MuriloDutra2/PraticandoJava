@@ -31,9 +31,9 @@ Abaixo, o status atual do meu desenvolvimento técnico baseado na trilha de form
 | ✅ |   100%    | **Controle de Fluxo: Condicionais (if/else)** | Alura |
 | ✅ |   100%    | **Laços de Repetição (for/while)** | Alura |
 | 📅 |    0%     | **Strings e Regex** | Alura |
-| 🚧 |    68%    | **Manipulação de Datas e Horas** | Alura |
+| ✅ |   100%    | **Manipulação de Datas e Horas** | Alura |
 | 📅 |    0%     | **Coleções (Lists/Sets) e Streams** | Alura |
-| 📅 |    0%     | **POO: Classes, Atributos e Métodos** | Alura/FATEC |
+| 🚧 |    0%     | **POO: Classes, Atributos e Métodos** | Alura/FATEC |
 | 📅 |    0%     | **POO: Encapsulamento** | Alura |
 | 📅 |    0%     | **POO Avançada: Herança, Polimorfismo e Interfaces** | Alura |
 
