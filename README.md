@@ -34,7 +34,7 @@ Abaixo, o status atual do meu desenvolvimento técnico baseado na trilha de form
 | ✅ |   100%    | **Manipulação de Datas e Horas** | Alura |
 | 📅 |    0%     | **Coleções (Lists/Sets) e Streams** | Alura |
 | ✅ |   100%    | **POO: Classes, Atributos e Métodos** | Alura/FATEC |
-| 📅 |    0%     | **POO: Encapsulamento** | Alura |
+| 🚧 |    35%    | **POO: Encapsulamento** | Alura |
 | 📅 |    0%     | **POO Avançada: Herança, Polimorfismo e Interfaces** | Alura |
 
 > **Legenda:** ✅ Concluído | 🚧 Em Andamento | 📅 Planejado
